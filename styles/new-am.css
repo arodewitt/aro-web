@@ -40,11 +40,11 @@
 }
 
 .new-am_palette {
-  width: 15%;
+  width: 5%;
 }
 
 .new-am_orange {
-  background-color: #cc892a;
+  background-color: #cc8a29;
   height: 65px;
 }
 
@@ -80,6 +80,10 @@
 
   .new-am_square-light {
     width: 50%;
+  }
+
+  .new-am_square-dark {
+    margin-right: 20px;
   }
 
   .new-am_square-dark img {
