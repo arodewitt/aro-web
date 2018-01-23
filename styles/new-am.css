@@ -12,30 +12,6 @@
   fill: #cc8a29;
 }
 
-.new-am_in-situ {
-  padding: 5px;
-  border: 1px solid #cc8a29;
-  border-radius: 5px;
-  margin: auto;
-  margin-bottom: 20px;
-}
-
-.new-am_in-stu-nav {
-  display: flex;
-}
-
-.new-am_button {
-  width: 8px;
-  height: 8px;
-  margin: 0 5px 5px 0;
-  border: 1px solid #cc8a29;
-  border-radius: 100px;
-}
-
-.new-am_in-situ img {
-  padding-bottom: 0;
-}
-
 .new-am_square-dark {
   height: auto;
   background: linear-gradient(15deg, #cc892a, #68a8a9, #68a8a9);

@@ -226,6 +226,31 @@ a.home {
   transition: opacity 0.5s;
 }
 
+/* for simulated browser frames */
+.browser-frame {
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.browser-frame_nav {
+  display: flex;
+}
+
+.browser-frame_button {
+  width: 8px;
+  height: 8px;
+  margin: 0 5px 5px 0;
+  border: 1px solid;
+  border-radius: 100px;
+}
+
+.browser-frame img {
+  padding-bottom: 0;
+}
+
 @media only screen and (min-width: 768px) {
     /* For tablets: */
     .nav{
