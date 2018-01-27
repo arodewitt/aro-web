@@ -46,15 +46,68 @@ img.new-am_swatches {
 
 .new-am_type-block {
   margin-top: 15px;
-}
-
-.new-am_type-block {
   max-width: 65%;
 }
 
 @media only screen and (min-width: 768px) {
   .new-am_full-width img {
+    padding: 60px 0;
+    width: 30%;
+  }
+
+  .new-am_icon-mockup {
+    display: flex;
+  }
+
+  .new-am_icon {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .new-am_mockup-div {
+    width: 70%;
+  }
+
+  img.new-am_mockup {
+    width: 100%;
+  }
+
+  img.new-am_swatches {
+    width: 75%;
+    margin-left: -1px;
+  }
+
+  .new-am_collage {
+    margin-top: -35px;
+  }
+
+  .new-am_bottom-block {
+    display: flex;
+  }
+
+  .new-am_spacing {
+    width: 50%;
+  }
+
+  .new-am_type-block {
+    width: 50%;
+    padding-left: 15px;
+    margin-left: 15px;
     margin-top: 0;
+    border-left: 1px dotted #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new-am_type-block p {
+    margin-bottom: 0;
+  }
+
+  .new-am_type-block img {
+    width: 60%;
   }
 }
 
