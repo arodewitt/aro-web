@@ -52,82 +52,9 @@ img.new-am_swatches {
   max-width: 65%;
 }
 
-/* .new-am_square-dark {
-  height: auto;
-  background: linear-gradient(15deg, #cc892a, #68a8a9, #68a8a9, #68a8a9);
-  padding: 40px;
-}
-
-.new-am_square-dark img {
-  width: 50%;
-  padding-bottom: 0;
-  margin: auto;
-  display: block;
-}
-
-.new-am_square-light {
-  height: auto;
-  display: flex;
-  background-color: #f9f9f9;
-}
-
-.new-am_square-light img {
-  width: 50%;
-  padding-bottom: 0;
-  margin: auto;
-  display: block;
-  max-height: 175px;
-} */
-
-.new-am_palette {
-  width: 5%;
-}
-
-.new-am_orange {
-  background-color: #cc8a29;
-  height: 65px;
-}
-
-.new-am_brown {
-  background-color: #544849;
-  height: 120px;
-}
-
-.new-am_violet {
-  background-color: #63529e;
-  height: 10px;
-}
-
-.new-am_blue {
-  background-color: #68a8a9;
-  height: 20px;
-}
-
-.new-am_green {
-  background-color: #a1bc02;
-  height: 20px;
-}
-
 @media only screen and (min-width: 768px) {
   .new-am_full-width img {
     margin-top: 0;
-  }
-
-  .new-am_collage-bottom {
-    width: 100%;
-    display: flex;
-  }
-
-  .new-am_square-light {
-    width: 50%;
-  }
-
-  .new-am_square-dark {
-    margin-right: 20px;
-  }
-
-  .new-am_square-dark img {
-    width: 100%;
   }
 }
 
