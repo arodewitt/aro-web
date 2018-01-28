@@ -7,7 +7,6 @@
   width: 50%;
   padding: 30px;
   margin: auto;
-  margin-top: 30px;
   display: block;
   fill: #cc8a29;
 }
@@ -77,6 +76,7 @@ img.new-am_swatches {
   img.new-am_swatches {
     width: 75%;
     margin-left: -1px;
+    max-width: 950px;
   }
 
   .new-am_collage {
@@ -84,6 +84,7 @@ img.new-am_swatches {
   }
 
   .new-am_bottom-block {
+    max-width: 950px;
     display: flex;
   }
 
@@ -96,7 +97,7 @@ img.new-am_swatches {
     padding-left: 15px;
     margin-left: 15px;
     margin-top: 0;
-    border-left: 1px dotted #000;
+    border-left: 1px dotted #b0b0b0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -117,4 +118,33 @@ img.new-am_swatches {
     max-width: 200px;
     padding: 90px 0px;
   }
+
+  .new-am_full-width {
+    margin-bottom: 30px;
+    max-width: 950px;
+  }
+
+  .new-am_icon {
+    margin-bottom: 0;
+  }
+
+  .new-am_icon img {
+    padding: 0;
+    max-height: 300px;
+  }
+
+  .new-am_icon-mockup {
+    margin-bottom: 30px;
+    max-width: 950px;
+  }
+
+  img.new-am_mockup {
+    padding-bottom: 0;
+  }
+
+  img.new-am_collage {
+    width: 100%;
+    margin-top: -55px;
+  }
+
 }
