@@ -1,0 +1,169 @@
+.new-am_full-width {
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+}
+
+.new-am_full-width img {
+  width: 50%;
+  padding: 30px;
+  margin: auto;
+  display: block;
+  fill: #cc8a29;
+}
+
+.new-am_icon {
+  background-color: #f2f2f2;
+  margin-bottom: 15px;
+}
+
+.new-am_icon img {
+  max-height: 200px;
+  padding: 30px;
+  transform: rotate(270deg);
+}
+
+.new-am_swatches {
+  z-index: 200;
+  position: relative;
+}
+
+img.new-am_swatches {
+  max-width: 90%;
+}
+
+.new-am_collage {
+  margin-top: -30px;
+  z-index: 0;
+}
+
+.new-am_spacing {
+  background-color: #f2f2f2;
+  display: flex;
+  height: auto;
+}
+
+.new-am_spacing img {
+  padding: 60px;
+  margin: auto;
+  width: auto;
+}
+
+.new-am_type-block {
+  margin-top: 15px;
+  max-width: 65%;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .new-am_collage-wrapper {
+    padding-bottom: 75px;
+  }
+
+  .new-am_full-width img {
+    padding: 60px 0;
+    width: 30%;
+  }
+
+  .new-am_icon-mockup {
+    display: flex;
+  }
+
+  .new-am_icon {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .new-am_icon img {
+    transform: none;
+  }
+
+  .new-am_mockup-div {
+    width: 70%;
+  }
+
+  img.new-am_mockup {
+    width: 100%;
+  }
+
+  img.new-am_swatches {
+    width: 75%;
+    margin-left: -1px;
+    max-width: 950px;
+  }
+
+  .new-am_collage {
+    margin-top: -35px;
+  }
+
+  .new-am_bottom-block {
+    max-width: 950px;
+    display: flex;
+  }
+
+  .new-am_spacing {
+    width: 50%;
+  }
+
+  .new-am_spacing img {
+    padding: 30px;
+    margin: auto;
+    width: auto;
+  }
+
+  .new-am_type-block {
+    width: 50%;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .new-am_type-block p {
+    margin-bottom: 0;
+  }
+
+  .new-am_type-block img {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .new-am_full-width img {
+    width: 20%;
+    max-width: 200px;
+    padding: 90px 0px;
+  }
+
+  .new-am_full-width {
+    margin-bottom: 30px;
+    max-width: 950px;
+  }
+
+  .new-am_icon {
+    margin-bottom: 0;
+  }
+
+  .new-am_icon img {
+    padding: 0;
+    max-height: 300px;
+  }
+
+  .new-am_icon-mockup {
+    margin-bottom: 30px;
+    max-width: 950px;
+  }
+
+  img.new-am_mockup {
+    padding-bottom: 0;
+  }
+
+  img.new-am_collage {
+    width: 100%;
+    margin-top: -55px;
+  }
+
+}
