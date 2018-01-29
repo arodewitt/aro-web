@@ -19,6 +19,7 @@
 .new-am_icon img {
   max-height: 200px;
   padding: 30px;
+  transform: rotate(270deg);
 }
 
 .new-am_swatches {
@@ -38,19 +39,26 @@ img.new-am_swatches {
 .new-am_spacing {
   background-color: #f2f2f2;
   display: flex;
+  height: auto;
 }
 
 .new-am_spacing img {
   padding: 60px;
   margin: auto;
+  width: auto;
 }
 
 .new-am_type-block {
   margin-top: 15px;
   max-width: 65%;
+  padding: 15px;
 }
 
 @media only screen and (min-width: 768px) {
+  .new-am_collage-wrapper {
+    padding-bottom: 75px;
+  }
+
   .new-am_full-width img {
     padding: 60px 0;
     width: 30%;
@@ -65,6 +73,10 @@ img.new-am_swatches {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .new-am_icon img {
+    transform: none;
   }
 
   .new-am_mockup-div {
@@ -94,12 +106,17 @@ img.new-am_swatches {
     width: 50%;
   }
 
+  .new-am_spacing img {
+    padding: 30px;
+    margin: auto;
+    width: auto;
+  }
+
   .new-am_type-block {
     width: 50%;
     padding-left: 15px;
-    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 0;
-    border-left: 1px dotted #b0b0b0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
