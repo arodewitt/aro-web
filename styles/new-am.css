@@ -43,9 +43,10 @@ img.new-am_swatches {
 }
 
 .new-am_spacing img {
-  padding: 60px;
-  margin: auto;
-  width: auto;
+  padding: 0;
+  margin: 30px auto;
+  width: 50%;
+  max-width: 100%;
 }
 
 .new-am_type-block {
