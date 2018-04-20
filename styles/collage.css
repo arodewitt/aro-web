@@ -1,6 +1,14 @@
-.new-am_full-width {
+.new-am_full-width,
+.nycja_full-width {
   background-color: #f2f2f2;
   margin-bottom: 20px;
+}
+
+.nycja_full-width img {
+  width: 75%;
+  padding: 40px;
+  margin: auto;
+  display: block;
 }
 
 .new-am_full-width img {
@@ -55,12 +63,60 @@ img.new-am_swatches {
   padding: 15px;
 }
 
+/* NYCJA ============================================== */
+
+.nycja_icon-mockup-palettes {
+  display: flex;
+  width: 100%;
+}
+
+.nycja_logo-small-blue {
+  background-color: #8be1fc;
+}
+
+.nycja_logo-small-orange {
+  background-color: #f9cf32;
+}
+
+.nycja_logo-small-blue,
+.nycja_logo-small-orange {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 40px 0;
+}
+
+.nycja_logo-small-blue img,
+.nycja_logo-small-orange img {
+  width: 50%;
+  padding-bottom: 0;
+}
+
+.nycja_icon-mockup-illo {
+  width: 100%;
+}
+
+.nycja_bottom-block {
+  width: 100%;
+  max-width: 950px;
+}
+
+.nycja_bottom-block img {
+  width: 100%;
+}
+
+.nycja_icon-mockup-palettes-full {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .new-am_collage-wrapper {
     padding-bottom: 75px;
   }
 
-  .new-am_full-width img {
+  .new-am_full-width img,
+  .nycja_full-width img {
     padding: 60px 0;
     width: 30%;
   }
@@ -130,16 +186,64 @@ img.new-am_swatches {
   .new-am_type-block img {
     width: 60%;
   }
+
+  /* NYCJA ============================================== */
+
+  .nycja_icon-mockup {
+    width: 100%;
+    display: flex;
+  }
+
+  .nycja_icon-mockup-palettes {
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .nycja_logo-small-blue,
+  .nycja_logo-small-orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0;
+  }
+
+  .nycja_logo-small-blue img,
+  .nycja_logo-small-orange img {
+    width: 30%;
+  }
+
+  .nycja_icon-mockup-illo {
+    width: 80%;
+  }
+
+  .nycja_icon-mockup-palettes-full {
+    margin: auto;
+    max-width: 130px;
+  }
+
+  .nycja_icon-mockup-palettes-full img {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
-  .new-am_full-width img {
+  .new-am_full-width img,
+  .nycja_full-width img {
     width: 20%;
     max-width: 200px;
     padding: 90px 0px;
   }
 
-  .new-am_full-width {
+  .nycja_full-width img {
+    width: 30%;
+    max-width: 450px;
+  }
+
+  .new-am_full-width,
+  .nycja_full-width {
     margin-bottom: 30px;
     max-width: 950px;
   }
@@ -167,4 +271,17 @@ img.new-am_swatches {
     margin-top: -55px;
   }
 
+  /* NYCJA ============================================== */
+
+  .nycja_icon-mockup {
+    max-width: 950px;
+  }
+
+  .nycja_icon-mockup-illo img {
+    width: 100%;
+  }
+
+  .nycja_icon-mockup-palettes-full  {
+    display: block;
+  }
 }
