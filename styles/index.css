@@ -252,6 +252,10 @@ a.home {
   padding-bottom: 0;
 }
 
+.not-found_gallery-h2 {
+  border-top: 0;
+}
+
 @media only screen and (min-width: 768px) {
     /* For tablets: */
     .nav{
